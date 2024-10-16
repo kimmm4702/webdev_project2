@@ -1,66 +1,60 @@
-body.index-page{
+body{
+	font-family: "Shadows Into Light", cursive;
 	background-color: #c2ba9e; 
-	font-weight: 400;
-	font-style: normal;
 	margin: 0;
 	padding: 0;
 	color: #000;
 }
-body.resume-page{
-	background-color: papayawhip;
 
-}
-body.hobbies-page{
-	background-color: lightskyblue;
-}
 
 header{
-	font-family: "Shadows Into Light", cursive;
 	background-color: lightpink;
 	text-align: center;
 	padding: 20px;
 }
-nav ul{
+header nav ul{
 	list-style-type: none;
-	display: inline;
 	padding: 0;
 	margin: 0;
+	text-align: center;
 }
-nav ul li{
+header nav ul li{
+	display: inline;
 	margin: 0 20px;
 }
-nav ul li a{
+header nav ul li a{
 	text-decoration: none;
 	color: floralwhite;
 	background-color: hotpink;
-	font-size: 20px;
+	font-weight: bold;
 	padding: 10px 20px;
 }
 nav ul li a:hover{
 	color: #eee6c9;
 }
+/* Homepage*/
+#index-page{
+	padding: 20px;
+	text-align: center;
+}
 #index-page h1{
 	font-size: 48px;
-	text-align: center;
 	margin-top: 20px;
 	color: black;
 }
 
-h2{
+#index-page h2{
 	font-size: 20px;
 }
-p,ul{
-	font-size: 18px;
+#index-page img{
+	max-width: 100%;
+	border: 3px solid lightsalmon;
 }
-section ul {
-	margin-left: 20px;
+/*Resume*/
+
+#resume-page{
+	padding: 20px;
+	
 }
 
-section ul li{
-	margin-bottom: 10px;
-}
-img{
-	max-width: 100%;
-	border: 1px solid lightsalmon;
-}
 
