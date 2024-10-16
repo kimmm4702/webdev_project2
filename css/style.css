@@ -20,7 +20,7 @@ nav ul{
 }
 nav ul li{
 	display: inline;
-	margin: 20px;
+	margin: 40px;
 }
 nav ul li a{
 	text-decoration: none;
@@ -35,7 +35,7 @@ h1{
 	font-size: 48px;
 	text-align: center;
 	margin-top: 20px;
-	color: lightpink;
+	color: black;
 }
 section{
 	padding: 20px;
