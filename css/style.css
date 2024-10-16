@@ -86,7 +86,8 @@ h2{
 }
 .image-container{
 	position: relative;
-	display: block;
+	display: inline-block;
+	margin-right: 10px;
 	height: auto;
 }
 .overlay{
