@@ -1,9 +1,19 @@
 body{
 	font-family: "Shadows Into Light", cursive;
-	background-color: #c2ba9e; 
+
 	margin: 0;
 	padding: 0;
 	color: #000;
+}
+/*Background colors*/
+#index-page{
+	background-color: #d3c9ee;
+}
+#resume-page{
+	background-color: #d4e6f3;
+}
+#hobbies-page{
+	background-color: #eff3d4;
 }
 
 
@@ -20,7 +30,7 @@ header nav ul{
 }
 header nav ul li{
 	display: inline;
-	margin: 0 20px;
+	margin-right: 20px;
 }
 header nav ul li a{
 	text-decoration: none;
@@ -32,18 +42,17 @@ header nav ul li a{
 nav ul li a:hover{
 	color: #eee6c9;
 }
-/* Homepage*/
-#index-page{
-	padding: 20px;
-}
-#index-page h1{
+h1{
 	font-size: 48px;
 	margin-top: 20px;
 	color: black;
 }
-
-#index-page h2{
+h2{
 	font-size: 20px;
+}
+/* Homepage*/
+#index-page{ß
+	padding: 20px;
 }
 #index-page img{
 	max-width: 100%;
@@ -54,6 +63,11 @@ nav ul li a:hover{
 #resume-page{
 	padding: 20px;
 
+}
+#cinfo, #education, #workexp, #volunteer, #skills, #languages{
+	margin-bottom: 20px;
+	padding: 15px;
+	border: 2px solid darkblue;
 }
 
 
