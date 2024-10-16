@@ -19,7 +19,7 @@ nav ul li{
 }
 nav ul li a{
 	display: block;
-	background-color: brown;
+	background-color: hotpink;
 	font-weight: bolder;
 	text-align: center;
 	width: 100px;
@@ -30,6 +30,7 @@ nav ul li a:hover{
 	color: #eee6c9;
 }
 header{
+	background-color: lightpink;
 	text-align: center;
 	padding: 20px;
 }
