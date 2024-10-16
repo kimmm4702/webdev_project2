@@ -5,37 +5,38 @@ body{
 	font-style: normal;
 	margin: 0;
 	padding: 0;
-}
-nav ul{
-	list-style-type: square;
-	justify-content: center;
-	padding: 0;
-	margin: 0;
-	overflow: hidden;
-	background-color: red;
-}
-nav ul li{
-	float:left;
-	margin: 0 15px;
-}
-nav ul li a{
-	display: block;
-	background-color: hotpink;
-	font-weight: bolder;
-	text-align: center;
-	width: 100px;
-	padding: 10px 0px 8px 0px;
-	border-radius: 4px;
-}
-nav ul li a:hover{
-	color: #eee6c9;
+	color: #0000;
 }
 header{
 	background-color: lightpink;
 	text-align: center;
 	padding: 20px;
 }
+nav ul{
+	list-style-type: none;
+	justify-content: center;
+	padding: 0;
+	margin: 0;
+}
+nav ul li{
+	display: inline;
+	margin: 20px;
+}
+nav ul li a{
+	text-decoration: none;
+	color: floralwhite;
+	background-color: hotpink;\
+	font-size: 20px;
+}
+nav ul li a:hover{
+	color: #eee6c9;
+}
+h1{
+	font-size: 48px;
+	text-align: center;
+	margin-top: 20px;
+	color: lightpink;
+}
 section{
 	padding: 20px;
-	background-color: blueviolet;
 }
