@@ -61,6 +61,9 @@ h2{
 	max-width: 100%;
 	border: 3px solid purple;
 }
+#chicago{
+	background-color: darkblue;
+}
 /*Resume*/
 
 #resume-page{
@@ -84,6 +87,13 @@ h2{
 	max-width: 100%;
 	height: auto;
 }
+#sidebix img{
+	border-radius: 10px;
+	max-width: 100%;
+	height: auto;
+	margin: 10px;
+}
+/*Overlay*/
 .image-container{
 	position: relative;
 	display: inline-block;
