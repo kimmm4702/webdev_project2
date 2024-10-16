@@ -65,7 +65,6 @@ h2{
   margin-top: 1rem;
 }
 #chicago{
-  position: absolute;
   background-color: darkblue;
   border-radius: 10px;
   margin: 1rem auto;
@@ -74,6 +73,8 @@ h2{
   border: 3px solid royalblue;
   object-fit: cover;
   text-align: center;
+  padding-bottom: 1rem;
+  display: block;
 }
 #chicago iframe{
   width: 100%;
