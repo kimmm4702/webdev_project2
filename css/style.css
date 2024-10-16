@@ -62,11 +62,13 @@ h2{
   border: 3px solid purple;
 }
 #chicago{
+  position: fixed;
   background-color: darkblue;
   border-radius: 10px;
   margin: 10px;
   max-width: 100%;
   border: 3px solid royalblue;
+  object-fit: cover;
 }
 
 /*Resume*/
@@ -92,7 +94,7 @@ h2{
 }
 #sidebiz img{
   border-radius: 10px;
-  border: 2px solic darkred;
+  border: 2px solid darkred;
   max-width: 100%;
   height: auto;
   margin: 10px;
