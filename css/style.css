@@ -43,20 +43,22 @@ nav ul li a:hover{
 	color: #eee6c9;
 }
 h1{
+	text-align: center;
 	font-size: 48px;
 	margin-top: 20px;
 	color: black;
+
 }
 h2{
 	font-size: 20px;
 }
 /* Homepage*/
-#index-page{ß
+#index-page{
 	padding: 20px;
 }
 #index-page img{
 	max-width: 100%;
-	border: 3px solid lightsalmon;
+	border: 3px solid purple;
 }
 /*Resume*/
 
@@ -65,7 +67,7 @@ h2{
 
 }
 #cinfo, #education, #workexp, #volunteer, #skills, #languages{
-	margin-bottom: 20px;
+	margin-bottom: 10px;
 	padding: 15px;
 	border: 2px solid darkblue;
 }
