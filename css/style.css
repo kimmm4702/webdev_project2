@@ -1,10 +1,10 @@
 body{
   font-family: "Shadows Into Light", cursive;
-
   margin: 0;
   padding: 0;
   color: #000;
 }
+
 /*Background colors*/
 #index-page{
   background-color: #d3c9ee;
@@ -16,7 +16,7 @@ body{
   background-color: #eff3d4;
 }
 
-
+/*Header*/
 header{
   background-color: lightpink;
   text-align: center;
@@ -47,12 +47,12 @@ h1{
   font-size: 48px;
   margin-top: 20px;
   color: black;
-
 }
 h2{
   font-size: 20px;
   font-weight: bold;
 }
+
 /* Homepage*/
 #index-page{
   padding: 20px;
@@ -63,12 +63,15 @@ h2{
 }
 #chicago{
   background-color: darkblue;
+  border-radius: 10px;
+  margin: 10px;
+  max-width: 100%;
+  border: 3px solid royalblue;
 }
-/*Resume*/
 
+/*Resume*/
 #resume-page{
   padding: 20px;
-
 }
 #cinfo, #education, #workexp, #volunteer, #skills, #languages{
   margin-bottom: 10px;
@@ -87,12 +90,14 @@ h2{
   max-width: 100%;
   height: auto;
 }
-#sidebix img{
+#sidebiz img{
   border-radius: 10px;
+  border: 2px solic darkred;
   max-width: 100%;
   height: auto;
   margin: 10px;
 }
+
 /*Overlay*/
 .image-container{
   position: relative;
