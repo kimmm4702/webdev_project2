@@ -1,20 +1,28 @@
-body{
+body.index-page{
 	background-color: #c2ba9e; 
-	font-family: "Shadows Into Light", cursive;
 	font-weight: 400;
 	font-style: normal;
 	margin: 0;
 	padding: 0;
 	color: #000;
 }
+body.resume-page{
+	background-color: papayawhip;
+
+}
+body.hobbies-page{
+	background-color: lightskyblue;
+}
+
 header{
+	font-family: "Shadows Into Light", cursive;
 	background-color: lightpink;
 	text-align: center;
 	padding: 20px;
 }
 nav ul{
 	list-style-type: none;
-	justify-content: center;
+	display: inline;
 	padding: 0;
 	margin: 0;
 }
@@ -31,7 +39,7 @@ nav ul li a{
 nav ul li a:hover{
 	color: #eee6c9;
 }
-h1{
+#index-page h1{
 	font-size: 48px;
 	text-align: center;
 	margin-top: 20px;
