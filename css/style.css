@@ -83,5 +83,19 @@ h2{
 #hobbies-page img{
 	max-width: 100%;
 }
+.overlay{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: ;
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	background-color: lightyellow ;
+}
+.image-container:hover .overlay{
+	opacity: 1;
+}
 
 
