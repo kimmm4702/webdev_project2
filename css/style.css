@@ -19,7 +19,7 @@ body{
 
 /*Header*/
 header{
-  background-color: lightpink;
+  #background-color: lightpink;
   text-align: center;
   padding: 2rem 0;
 }
@@ -29,18 +29,23 @@ header nav ul{
   margin: 0;
   text-align: center;
 }
+.nav-links{
+  gap:2rem;
+  list-style: none;
+  font-size: 1.5rem;
+}
 header nav ul li{
   display: inline-block;
 }
 header nav ul li a{
   text-decoration: none;
-  color: floralwhite;
-  background-color: hotpink;
-  font-weight: bold;
-  padding: 0rem 1rem;
+  color: black;
+  text-decoration-color: white;
+ 
 }
 nav ul li a:hover{
   color: #eee6c9;
+  text-decoration: underline;
 }
 h1{
   text-align: center;
