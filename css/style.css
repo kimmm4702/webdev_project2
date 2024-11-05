@@ -68,6 +68,12 @@ h2{
   border: 3px solid purple;
   margin-top: 1rem;
 }
+.section-pic{
+  display: flex;
+  height: 400px;
+  width: 400px;
+  margin:auto 0;
+}
 
 
 /*Resume*/
