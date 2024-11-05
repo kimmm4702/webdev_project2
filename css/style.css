@@ -1,5 +1,5 @@
 body{
-  font-family: "Shadows Into Light", cursive, sans-serif;
+  font-family: "Poppins", sans-serif;
   margin: 0;
   padding: 0;
   color: #000;
@@ -31,14 +31,13 @@ header nav ul{
 }
 header nav ul li{
   display: inline-block;
-  margin-right: 2rem;
 }
 header nav ul li a{
   text-decoration: none;
   color: floralwhite;
   background-color: hotpink;
   font-weight: bold;
-  padding: 0.5rem 1rem;
+  padding: 0rem 1rem;
 }
 nav ul li a:hover{
   color: #eee6c9;
