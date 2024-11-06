@@ -183,17 +183,7 @@ nav ul li a:hover{
   height: auto;
   margin-bottom: 1rem;
 }
-#travel .image-container{
-  display: flex;
-  justify-content: center;
-  gap: 1rem;
-  width: 100%;
-  margin: 0 auto;
-}
-#travel .image-container img{
-  width: 30%;
-  height: auto;
-}
+
 #side-business img{
   border-radius: 10px;
   border: 4px solid darkred;
