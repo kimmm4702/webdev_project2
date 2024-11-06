@@ -172,13 +172,13 @@ nav ul li a:hover{
   margin-bottom: 1rem;
   font-size: 1.75rem;
 }
-.hobbies-container{
+.image-container{
   display: flex;
   justify-content: center;
   gap: 2%;
   width: 90%;
 }
-.hobbies-container img{
+.image-container img{
   width: 90%;
   max-width: 300px;
   height: auto;
