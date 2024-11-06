@@ -123,9 +123,10 @@ nav ul li a:hover{
   margin: 0 auto;
   font-family: 'Arial', sans-serif;
 }
-.hobbies h1{
-  color: #0000FF;
+.resume h1{
+  color: #027148;
 }
+
 #cinfo, #education, #workexp, #volunteer, #skills, #languages{
   margin-bottom: 10px;
   padding: 15px;
@@ -138,9 +139,10 @@ nav ul li a:hover{
   text-align: center;
 
 }
-.resume h1{
-  color: #013220;
+.hobbies h1{
+  color: #0000FF;
 }
+
 #travel h2, #sports h2, #sidebiz h2{
   font-family: 'Shadows Into Light', cursive;
   text-align: center;
