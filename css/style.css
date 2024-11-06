@@ -58,11 +58,13 @@ nav ul li a:hover{
   color: #444;
   margin-bottom: 2rem;
 }
-#about h1{
+#about h1, #travel h1, #cinfo h1{
   font-family: 'Shadows Into Light', cursive;
   text-align: center ;
   font-size: 2.5rem;
   margin-top: 20px;
+}
+#about h1{
   color: #800080;
 }
 #about h2{
@@ -121,6 +123,9 @@ nav ul li a:hover{
   margin: 0 auto;
   font-family: 'Arial', sans-serif;
 }
+#cinfo h1{
+  color: #0000FF;
+}
 #cinfo, #education, #workexp, #volunteer, #skills, #languages{
   margin-bottom: 10px;
   padding: 15px;
@@ -133,11 +138,14 @@ nav ul li a:hover{
   text-align: center;
 
 }
+#travel h1{
+  color: #00ff00;
+}
 #travel h2, #sports h2, #sidebiz h2{
   font-family: 'Shadows Into Light', cursive;
-}
-#travel{
   text-align: center;
+  color: #00ff00;
+}
 
 #hobbies-page img{
   max-width: 100%;
