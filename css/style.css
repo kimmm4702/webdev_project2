@@ -58,7 +58,7 @@ nav ul li a:hover{
   color: #444;
   margin-bottom: 2rem;
 }
-#about h1, #travel h1, #cinfo h1{
+#about h1, .resume h1, .hobbies h1{
   font-family: 'Shadows Into Light', cursive;
   text-align: center ;
   font-size: 2.5rem;
@@ -123,7 +123,7 @@ nav ul li a:hover{
   margin: 0 auto;
   font-family: 'Arial', sans-serif;
 }
-#cinfo h1{
+.hobbies h1{
   color: #0000FF;
 }
 #cinfo, #education, #workexp, #volunteer, #skills, #languages{
@@ -138,7 +138,7 @@ nav ul li a:hover{
   text-align: center;
 
 }
-#travel h1{
+.resume h1{
   color: #013220;
 }
 #travel h2, #sports h2, #sidebiz h2{
