@@ -156,11 +156,18 @@ nav ul li a:hover{
 #travel h2, #sports h2, #sidebiz h2{
   font-family: "Domine", sans-serif;
   text-align: center;
-}
 
-#hobbies-page img{
-  max-width: 100%;
+}
+.hobbies-container{
+  display: flex;
+  justify-content: center;
+  gap: 2%;
+  width: 90%;
+}
+.hobbies-container img{
+  max-width: 45%;
   height: auto;
+  margin-bottom: 1rem;
 }
 #sidebiz img{
   border-radius: 10px;
