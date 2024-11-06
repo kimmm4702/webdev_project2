@@ -6,10 +6,12 @@ body{
   font-size: 1rem;
 }
 
+#index-page,#resume-page, #hobbies-page{
+  padding: 20px;
+}
 /*Background colors*/
 #index-page{
   background-color: #d3c9ee;
-  padding: 20px;
 }
 #resume-page{
   background-color: #d4e6f3;
@@ -84,7 +86,7 @@ h3{
 }
 
 .pets h2, .pets h3{
-  color: #444;
+  color: black;
 }
 .pets h2 {
   font-size: 1.75rem;
