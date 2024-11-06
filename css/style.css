@@ -31,7 +31,7 @@ header nav ul{
   text-align: center;
 }
 header nav ul li{
-  display: none;
+  display: inline-block;
   margin: 0 0.5rem;
 }
 header nav ul li a{
@@ -46,22 +46,21 @@ nav ul li a:hover{
   color: #b72d51;
 }
 h1{
-  text-align: center;
-  font-size: 3rem;
+  text-align: left ;
+  font-size: 2.5rem;
   margin-top: 20px;
   color: black;
 }
-h2{
-  font-size: 1.75rem;
-  font-weight: bold;
-  text-align: enter;
+h2,h3{
   color: #9557df;
   margin-bottom: 1rem;
 }
-h3{
+h2{
   font-size: 1.75rem;
+}
+h3{
+  font-size: 1.25rem;
   color: #000000;
-  margin-bottom: 0.5rem;
 }
 /*About Section*/
 #about{
@@ -89,6 +88,18 @@ h3{
 }
 .pets h2 {
   font-size: 1.75rem;
+}
+.petsimg{
+  border:3px solid #9557df;
+  padding: 5px;
+  border-radius: 5px;
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+}
+.pets figcaption{
+  font-size: 1rem;
+  margin-top: 0.5rem;
 }
 
 
