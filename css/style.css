@@ -60,15 +60,14 @@ nav ul li a:hover{
   color: black;
   margin-bottom: 2rem;
 }
-#about h1, .resume h1, .hobbies h1{
+#about h1{
+  color: #800080;
   font-family: 'Shadows Into Light', cursive;
   text-align: center ;
   font-size: 2.5rem;
   margin-top: 20px;
 }
-#about h1{
-  color: #800080;
-}
+
 #about h2{
   margin-bottom: 1rem;
   font-size: 1.75rem;
@@ -127,8 +126,12 @@ nav ul li a:hover{
   width: 960px;
   margin: 0 auto;
 }
-.resume h1{
+#resume-page h1{
   color: #0000FF;
+  font-family: 'Shadows Into Light', cursive;
+  text-align: center ;
+  font-size: 2.5rem;
+  margin-top: 20px;
 }
 
 #cinfo, #education, #workexp, #volunteer, #skills, #languages{
@@ -142,8 +145,12 @@ nav ul li a:hover{
   padding: 2rem;
 
 }
-.hobbies h1{
+#hobbies-page h1{
   color: green;
+  font-family: 'Shadows Into Light', cursive;
+  text-align: center ;
+  font-size: 2.5rem;
+  margin-top: 20px;
 }
 
 #travel h2, #sports h2, #sidebiz h2{
