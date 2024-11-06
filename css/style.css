@@ -2,13 +2,18 @@ body{
   font-family: "Domine", sans-serif;
   margin: 0;
   padding: 0;
-  color: #000;
+  color: black;
   font-size: 1rem;
+}
+p{
+  font-size: "Poppins", sans-serif;
+  color: black;
 }
 
 #index-page,#resume-page, #hobbies-page{
   padding: 20px;
 }
+
 /*Background colors*/
 #index-page{
   background-color: #d3c9ee;
@@ -62,7 +67,7 @@ h2{
 }
 h3{
   font-size: 1.25rem;
-  color: #000000;
+  color: black;
 }
 /*About Section*/
 #about{
