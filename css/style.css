@@ -22,7 +22,7 @@ body{
 header{
   background-color: lightpink;
   text-align: center;
-  padding: 2rem 0;
+  padding: 1rem 0;
 }
 header nav ul{
   list-style-type: none;
@@ -31,20 +31,19 @@ header nav ul{
   text-align: center;
 }
 header nav ul li{
-  display: inline-block;
+  display: none;
   margin: 0 0.5rem;
 }
 header nav ul li a{
   text-decoration: none;
-  color: floralwhite;
+  color: white;
   background-color: hotpink;
   font-weight: bold;
   padding: 0rem 1rem;
   border-radius: 5px;
-  transition: color 0.3s ease;
 }
 nav ul li a:hover{
-  color: #eee6c9;
+  color: #b72d51;
 }
 h1{
   text-align: center;
@@ -56,13 +55,12 @@ h2{
   font-size: 1.75rem;
   font-weight: bold;
   text-align: enter;
-  color: #333;
+  color: #9557df;
   margin-bottom: 1rem;
 }
 h3{
   font-size: 1.75rem;
-  font-weight: bold;
-  color: #555;
+  color: #000000;
   margin-bottom: 0.5rem;
 }
 /*About Section*/
@@ -71,7 +69,27 @@ h3{
   max-width: 800px;
   margin: 0 auto;
 }
+#about p {
+  font-size: 1.1rem;
+  color: #444;
+  margin-bottom: 2rem;
+}
+.video-container{
+  margin: 1.5rem auto;
 
+}
+/*Pets*/
+.pets{
+  text-align: center;
+  padding: 2rem;
+}
+
+.pets h2, .pets h3{
+  color: #444;
+}
+.pets h2 {
+  font-size: 1.75rem;
+}
 
 
 
