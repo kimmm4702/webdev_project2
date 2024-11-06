@@ -56,8 +56,8 @@ nav ul li a:hover{
   margin: 0 auto;
 }
 #about p {
-  font-size: 1.1rem;
-  color: #444;
+  font-size: 1rem;
+  color: black;
   margin-bottom: 2rem;
 }
 #about h1, .resume h1, .hobbies h1{
@@ -116,7 +116,7 @@ nav ul li a:hover{
   color: #000000;
 }
 .pets p{
-  font-size: 0.5rem;
+  font-size: 0.3rem;
 }
 
 
@@ -130,7 +130,6 @@ nav ul li a:hover{
 }
 .resume h1{
   color: #0000FF;
-  text-align: center;
 }
 
 #cinfo, #education, #workexp, #volunteer, #skills, #languages{
