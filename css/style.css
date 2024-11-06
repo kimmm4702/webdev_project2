@@ -130,10 +130,15 @@ nav ul li a:hover{
 /*Hobbies*/
 #hobbies-page{
   padding: 2rem;
+  text-align: center;
+
+}
+#travel h2, #sports h2, #sidebiz h2{
+  font-family: 'Shadows Into Light', cursive;
 }
 #travel{
   text-align: center;
-}
+
 #hobbies-page img{
   max-width: 100%;
   height: auto;
