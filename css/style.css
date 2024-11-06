@@ -1,90 +1,91 @@
-/* Resetting some default styles */
-* {
+body{
+  font-family: "Domine", sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  color: #000000;
 }
 
-body {
-  font-family: 'Domine', serif, sans-serif;
-  background-color: #f4f4f4;
-  color: #333;
-}
-
-header {
-  background-color: #333;
-  color: white;
-  padding: 1rem;
-  text-align: center;
-}
-
-nav ul {
-  list-style-type: none;
-}
-
-nav ul li {
-  display: inline;
-  margin: 0 15px;
-}
-
-nav ul li a {
-  color: white;
-  text-decoration: none;
-  font-weight: bold;
-}
-
-nav ul li a:hover {
-  text-decoration: underline;
-}
-
-/* Title & header styles */
-h1 {
-  font-family: 'Shadows Into Light', cursive;
-  color: #333;
-  margin: 20px 0;
-}
-
-h2 {
-  font-family: 'Domine', serif;
-  color: #555;
-  margin: 10px 0;
-}
-
-h3 {
-  font-family: 'Domine', serif;
-  color: #777;
-  margin: 10px 0;
-}
-
-/* About Section */
-#about {
+#index-page,#resume-page, #hobbies-page{
   padding: 20px;
-  background-color: white;
-  margin: 20px;
-  border-radius: 8px;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
 
-#about p {
-  line-height: 1.6;
+/*Background colors*/
+#index-page{
+  background-color: #d3c9ee;
+}
+#resume-page{
+  background-color: #d4e6f3;
+}
+#hobbies-page{
+  background-color: #eff3d4;
 }
 
-/* Video and Pets Section */
-.video-container {
-  margin-top: 20px;
+/*Header*/
+header{
+  background-color: lightpink;
   text-align: center;
+  padding: 1rem;
 }
-
-.video-container iframe {
-  border: 2px solid #333;
+header nav ul{
+  list-style-type: none;
+ 
+}
+header nav ul li{
+  display: inline-block;
+  margin: 0 0.5rem;
+}
+header nav ul li a{
+  text-decoration: none;
+  color: white;
+  background-color: hotpink;
+  font-weight: bold;
+  padding: 0rem 2rem;
   border-radius: 5px;
 }
-
-.pets {
-  margin-top: 40px;
+nav ul li a:hover{
+  color: #b72d51;
 }
 
-.pets figure {
+/*About Section*/
+#about{
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+#about p {
+  font-size: 1.1rem;
+  color: #444;
+  margin-bottom: 2rem;
+}
+#about h1{
+  font-family: 'Shadows Into Light', cursive;
+  text-align: center ;
+  font-size: 2.5rem;
+  margin-top: 20px;
+  color: #333;
+}
+#about h2{
+  margin-bottom: 1rem;
+  font-size: 1.75rem;
+}
+/* Video*/
+.video-container{
+  margin-top : 20px;
+  text-align: center;
+}
+
+.video-container iframe{
+  border: 2px solid blue;
+  border-radius: 6px;
+}
+
+/*Pets*/
+.pets{
+  text-align: center;
+  padding: 2rem;
+}
+.pets figure{
   display: inline-block;
   width: 30%;
   margin-right: 3%;
@@ -92,165 +93,89 @@ h3 {
   text-align: center;
 }
 
-.pets figure img {
-  width: 100%;
+.pets figure img{
+  border:3px solid #9557df;
+  padding: 5px;
   border-radius: 5px;
+  width: 100%;
+  max-width: 300px;
+  height: auto;
 }
-
-.pets figure figcaption {
+.pets figure figcaption{
+  font-size: 1rem;
   font-weight: bold;
-  margin-top: 10px;
+  margin-top: 0.5rem;
+  color: #000000;
 }
-
-.pets p {
+.pets p{
   font-size: 0.9rem;
-  line-height: 1.4;
-  color: #555;
 }
 
-/* Travel Section */
-#travel {
-  padding: 20px;
-  background-color: white;
-  margin: 20px 0;
-  border-radius: 8px;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+
+
+/*Resume*/
+#resume-page{
+  padding: 2rem;
+  width: 960px;
+  margin: 0 auto;
+  font-family: 'Arial', sans-serif;
+}
+#cinfo, #education, #workexp, #volunteer, #skills, #languages{
+  margin-bottom: 10px;
+  padding: 15px;
+  border: 2px solid darkblue;
 }
 
-.image-container {
+/*Hobbies*/
+#hobbies-page{
+  padding: 2rem;
+}
+#travel{
+  text-align: center;
+}
+#hobbies-page img{
+  max-width: 100%;
+  height: auto;
+}
+#sidebiz img{
+  border-radius: 10px;
+  border: 4px solid darkred;
+  max-width: 100%;
+  height: auto;
+  margin: 1rem;
+  align-items: center;
+
+}
+
+/*Overlay*/
+.image-container{
   position: relative;
   display: inline-block;
-  width: 30%;
-  margin-right: 3%;
-  margin-bottom: 20px;
+  margin-right: 10px;
+  height: auto;
 }
-
-.image-container img {
-  width: 100%;
-  border-radius: 8px;
-}
-
-.overlay {
+.overlay{
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: white;
-  font-size: 1.5rem;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: lightyellow ;
+}
+.image-container:hover .overlay{
+  opacity: 1;
+}
+.text{
+  color: #000000;
+  font-size: 1.25rem;
   font-weight: bold;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
-
-/* Sports and Business Sections */
-#sports, #sidebiz {
-  margin-top: 40px;
-}
-
-#sports ol, #sidebiz img {
-  margin-top: 20px;
-}
-
-#sports li {
-  margin-bottom: 10px;
-}
-
-#sidebiz img {
-  width: 48%;
-  margin-right: 2%;
-  margin-top: 10px;
-  border-radius: 5px;
-}
-
-#sidebiz img:last-child {
-  margin-right: 0;
-}
-
-/* Resume Section */
-#resume-page section {
-  background-color: white;
-  padding: 20px;
-  margin: 20px 0;
-  border-radius: 8px;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-}
-
-#resume-page h2 {
-  color: #444;
-  margin-bottom: 10px;
-}
-
-#resume-page p, #resume-page ul {
-  font-size: 1rem;
-  line-height: 1.6;
-}
-
-#resume-page ul {
-  margin-left: 20px;
-}
-
-#resume-page li {
-  margin-bottom: 10px;
-}
-
-/* Footer */
-footer {
-  background-color: #333;
-  color: white;
-  padding: 1rem;
-  text-align: center;
-  margin-top: 40px;
-}
-
-footer p {
-  font-size: 0.9rem;
-}
-
-/* Specific page styling */
-#hobbies-page h1, #resume-page h1, #index-page h1 {
-  text-align: center;
-  font-family: 'Shadows Into Light', cursive;
-  font-size: 2rem;
-  margin-top: 20px;
-}
-
-#about, #travel, #sports, #sidebiz, #resume-page {
-  margin: 20px;
-}
-
-#cinfo, #education, #workexp, #volunteer, #skills, #languages {
-  margin-bottom: 30px;
-}
-
-#skills ul, #languages ul {
-  list-style-type: none;
-  margin-left: 20px;
-}
-
-#skills li, #languages li {
-  margin-bottom: 8px;
-}
-
-/* Adjustments for smaller screens */
-@media (max-width: 768px) {
-  nav ul li {
-    display: block;
-    margin: 10px 0;
-  }
-
-  .pets figure, .image-container {
-    width: 100%;
-    margin-right: 0;
-  }
-
-  .pets img, .image-container img {
-    width: 100%;
-  }
-
-  #sidebiz img {
-    width: 100%;
-    margin-right: 0;
-  }
-}
-
 
 
