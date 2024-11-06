@@ -86,6 +86,10 @@ nav ul li a:hover{
 
 /*Pets*/
 .pets{
+  display: flex;
+  justify-content: center;
+  gap: 2%;
+  flex-wrap: wrap;
   text-align: center;
   padding: 2rem;
 
@@ -113,7 +117,7 @@ nav ul li a:hover{
   color: #000000;
 }
 .pets p{
-  font-size: 0.9rem;
+  font-size: 0.5rem;
 }
 
 
@@ -126,7 +130,8 @@ nav ul li a:hover{
   font-family: "Domine", sans-serif;
 }
 .resume h1{
-  color: #027148;
+  color: #0000FF;
+  text-align: center;
 }
 
 #cinfo, #education, #workexp, #volunteer, #skills, #languages{
@@ -142,7 +147,7 @@ nav ul li a:hover{
 
 }
 .hobbies h1{
-  color: #0000FF;
+  color: green;
 }
 
 #travel h2, #sports h2, #sidebiz h2{
